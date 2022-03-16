@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/targerian1999/ts-lib-starter#readme",
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "typescript": "^4.6.2"
   },
   "config": {
     "commitizen": {
