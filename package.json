@@ -1,0 +1,30 @@
+{
+  "name": "ts-lib-starter",
+  "version": "0.0.1",
+  "description": "A starter for creating libraries with typescript",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/targerian1999/ts-lib-starter.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "MularD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/targerian1999/ts-lib-starter/issues"
+  },
+  "homepage": "https://github.com/targerian1999/ts-lib-starter#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
