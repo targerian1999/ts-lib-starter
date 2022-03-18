@@ -12,8 +12,7 @@
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": "latest",
-    "project": "./tsconfig.eslint.json"
+    "ecmaVersion": "latest"
   },
   "plugins": ["@typescript-eslint"],
   "rules": {
@@ -24,7 +23,10 @@
   "overrides": [
     {
       "files": ["./tests/**/*.ts"],
-      "env": { "jest": true, "node": true }
+      "env": { "jest": true, "node": true },
+      "parserOptions": {
+        "project": "./tsconfig.eslint.json"
+      }
     }
   ]
 }
