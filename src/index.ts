@@ -1,15 +1,16 @@
 /**
- * @packageDocumentation A library starter that just print passed name
+ * @packageDocumentation A library starter that add two numbers
  */
 
 /**
- * Print the name that is passed with adding 'Hello ' string
+ * Calculate the sum of two numbers
  *
- * @param name - name to be returned
+ * @param a - first number
+ * @param b - second number
  *
  * @public
  */
-export function hello(name: string): string {
-  // let a = 0;
-  return "Hello " + name;
+export function add(a: number, b: number): number {
+  const sum = a + b;
+  return sum;
 }
